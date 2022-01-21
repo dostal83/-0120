@@ -1,0 +1,18 @@
+﻿<Page x:Class="LABA2.PageDT4"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:LABA2"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageDT4" Loaded="PageDT_Loaded">
+
+    <Grid Background="White">
+        <ListBox x:Name="listBoxCount" Margin="0,221,347,48"/>
+        <DataGrid HorizontalAlignment="Left" Height="205" VerticalAlignment="Top" Width="570" AutoGenerateColumns="True" Name="mygrid" Margin="0,10,0,0"/>
+        <Button Content="next" HorizontalAlignment="Left" VerticalAlignment="Top" Width="117" Margin="458,246,0,0" Height="28" Click="Button_Click"/>
+
+
+    </Grid>
+</Page>
